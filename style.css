@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+/* General Reusable Components */
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Header */
+
+.header {
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+.logo {
+}
+
+.main-nav {
+}
+.main-nav-list {
+  gap: 2rem;
+}
+.main-nav-link {
+}
