@@ -264,8 +264,6 @@ body {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   overflow: hidden;
   transition: all 0.4s;
-
-  opacity: ;
 }
 
 .about-img:hover {
@@ -345,4 +343,43 @@ body {
 .stat-item p {
   flex: 100%;
   max-width: 100%;
+}
+
+/* work with section */
+
+.work-with {
+}
+.services {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5rem;
+  column-gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+.service {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+}
+.service-icon {
+  color: #95e1d3;
+  font-size: 3rem;
+  justify-self: center;
+  /* align-self: center; */
+}
+.service-title {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  align-self: center;
+  align-self: center;
+  justify-self: start;
+}
+.service-p {
+  color: #b3b3b3;
+  font-family: "Montserrat", sans-serif;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: start;
 }
