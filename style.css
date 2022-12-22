@@ -347,8 +347,8 @@ body {
 
 /* work with section */
 
-.work-with {
-}
+/* .work-with {
+} */
 .services {
   margin-top: 5rem;
   display: grid;
@@ -382,4 +382,26 @@ body {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   justify-self: start;
+}
+
+/* unique-design */
+
+.unique-design {
+  position: relative;
+}
+.devices {
+  margin-top: 15rem;
+  background-image: url(images/nature.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.device-ipad {
+  margin-top: 5rem;
+}
+
+.device-iphone {
+  position: absolute;
+  top: 55%;
+  left: 58%;
 }
