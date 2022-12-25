@@ -506,3 +506,19 @@ body {
 .what-acc {
   justify-self: start;
 }
+
+/* STICY NAV */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgb(232, 135, 131, 0.5);
+  z-index: 999;
+}
+.section-hero .sticky {
+  margin-top: 9.6rem;
+}
