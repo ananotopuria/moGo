@@ -32,3 +32,27 @@ const obs = new IntersectionObserver(
 );
 
 obs.observe(sectionHeroEl);
+
+// Smooth scrolling
+
+document
+  .querySelector(`.main-nav-list`)
+  .addEventListener(`click`, function (e) {
+    e.preventDefault();
+    // Matching stategy
+    if (e.target.classList.contains(`main-nav-link`)) {
+      const id = e.target.getAttribute(`href`);
+      console.log(id);
+      document.querySelector(id).scrollIntoView({ behavior: `smooth` });
+    }
+  });
+
+// Button scrolling
+
+const btnScrollTo = document.querySelector(`.btn--scroll-to`);
+const section1 = document.querySelector(`#section-work`);
+
+btnScrollTo.addEventListener("click", function (e) {
+  const s1coords = section1.getBoundingClientRect();
+  section1.scrollIntoView({ behavior: `smooth` });
+});
