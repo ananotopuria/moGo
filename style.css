@@ -515,7 +515,8 @@ body {
 
 /* First Slider */
 
-.first-slider {
+.first-slider,
+.second-slider {
   background-color: #f8f8f8;
   /* max-width: 1000rem; */
   height: 30rem;
@@ -680,4 +681,61 @@ body {
 .n-3 {
   grid-column: 3 / 4;
   grid-row: 1 / span 3;
+}
+
+.second-slider {
+  background-color: #fff;
+}
+/* testimonials */
+.section-testimonials {
+  margin-top: 15rem;
+  background-image: url(images/nature1.jpg);
+  background-repeat: no-repeat;
+}
+.testimonials {
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: 110rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10rem;
+  column-gap: 5rem;
+}
+.testimonial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0rem;
+}
+
+.testimonial-img {
+  grid-column: 1 / 2;
+  grid-row: 1 / span 4;
+  justify-self: center;
+}
+.testimonial-name {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #333;
+}
+.testimonial-prof {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #4c4c4c;
+}
+.grid-line {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  align-self: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.testimonial-text {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  font-size: 1.2rem;
+  color: #999;
 }

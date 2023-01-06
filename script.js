@@ -60,9 +60,9 @@ btnScrollTo.addEventListener("click", function (e) {
 const slider = function () {
   const slides = document.querySelectorAll(`.slide`);
 
-  const sliderr = document.querySelector(`.slider`);
-  sliderr.style.transform = `scale(0.2)`;
-  sliderr.style.overflow = `visible`;
+  // const sliderr = document.querySelector(`.slider`);
+  // sliderr.style.transform = `scale(0.2)`;
+  // sliderr.style.overflow = `visible`;
 
   const btnLeft = document.querySelector(`.slider__btn--left`);
   const btnRight = document.querySelector(`.slider__btn--right`);
