@@ -18,41 +18,49 @@
           <li><a class="main-nav-link" href="#">BLOG</a></li>
           <li><a class="main-nav-link" href="#">CONTACT</a></li>
           <li>
-            <ion-icon class="main-nav-link" name="cart-outline"></ion-icon>
+            <ion-icon
+              class="main-nav-link nav-icon"
+              name="cart-outline"
+            ></ion-icon>
           </li>
           <li>
-            <ion-icon class="main-nav-link" name="search-outline"></ion-icon>
+            <ion-icon
+              class="main-nav-link nav-icon"
+              name="search-outline"
+            ></ion-icon>
           </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="section-hero container flex-column">
-        <h1 class="hero-title">Creative Template</h1>
-        <p class="hero-title-p">WELCOME TO MOGO</p>
-        <div class="line-1"></div>
-        <button class="btn btn--outline btn--scroll-to">LEARN MORE</button>
+        <div class="content">
+          <h1 class="hero-title">Creative Template</h1>
+          <p class="hero-title-p">WELCOME TO MOGO</p>
+          <div class="line-1"></div>
+          <button class="btn btn--outline btn--scroll-to">LEARN MORE</button>
+        </div>
         <div class="slider flex-row">
-          <div class="first-option options">
-            <div class="line"></div>
+          <div class="first-option options progress-bars">
+            <div class="bar progress-bar" id="myProgressBar"></div>
             <div class="slider-number">
               01&nbsp;&nbsp;<span class="slider-title">INTRO</span>
             </div>
           </div>
-          <div class="second-option options">
-            <div class="line"></div>
+          <div class="second-option options progress-bars">
+            <div class="bar progress-bar"></div>
             <div class="slider-number">
               02&nbsp;&nbsp;<span class="slider-title">WORK</span>
             </div>
           </div>
-          <div class="third-option options">
-            <div class="line"></div>
+          <div class="third-option options progress-bars">
+            <div class="bar progress-bar"></div>
             <div class="slider-number">
               03&nbsp;&nbsp;<span class="slider-title">ABOUT</span>
             </div>
           </div>
-          <div class="fourth-option options">
-            <div class="line"></div>
+          <div class="fourth-option options progress-bars">
+            <div class="bar progress-bar"></div>
             <div class="slider-number">
               04&nbsp;&nbsp;<span class="slider-title">CONTACTS</span>
             </div>
@@ -278,8 +286,72 @@
               </p>
             </div>
           </div>
+          <div class="first-slider">
+            <div class="slider">
+              <div class="slide slide--1">
+                <div class="random-quote">
+                  <img
+                    class="random-quote__img"
+                    src="/images/Untitledqote.png"
+                  />
+                  <blockquote class="random-quote__text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusantium quas quisquam non? Quas voluptate nulla minima
+                    deleniti optio ullam nesciunt, numquam corporis et
+                    asperiores laboriosam sunt, praesentium suscipit blanditiis.
+                    Necessitatibus id alias reiciendis, perferendis facere
+                    pariatur dolore veniam autem esse non voluptatem saepe
+                    provident nihil molestiae.
+                  </blockquote>
+                  <div class="random-quote__author qoute-author">
+                    <div class="line-2"></div>
+                    <p class="random-quote__name">Jon Doe</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide--2">
+              <div class="random-quote">
+                <img class="random-quote__img" src="/images/Untitledqote.png" />
+                <blockquote class="random-quote__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </blockquote>
+                <div class="random-quote__author qoute-author">
+                  <div class="line-2"></div>
+                  <p class="random-quote__name">Laura jones</p>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide--3">
+              <div class="random-quote">
+                <img class="random-quote__img" src="/images/Untitledqote.png" />
+                <blockquote class="random-quote__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </blockquote>
+                <div class="random-quote__author qoute-author">
+                  <div class="line-2"></div>
+                  <p class="random-quote__name">Liam Hemsworth</p>
+                </div>
+              </div>
+            </div>
+            <button class="slider__btn slider__btn--left">&lsaquo;</button>
+            <button class="slider__btn slider__btn--right">&rsaquo;</button>
+          </div>
         </div>
       </section>
+      <section></section>
     </main>
     <footer></footer>
     <script
