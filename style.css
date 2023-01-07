@@ -739,3 +739,163 @@ body {
   font-size: 1.2rem;
   color: #999;
 }
+
+/* our stories section */
+
+.blogs {
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.blog {
+}
+.blog-img {
+  position: relative;
+}
+.date {
+  width: 5rem;
+  position: absolute;
+}
+.blog-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.blog-txt {
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.page-view {
+  margin-top: 2rem;
+  border-top: 1px solid #b3b3b3;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.view-icon {
+  color: #95e1d3;
+  font-size: 2rem;
+}
+.view-numb {
+  font-size: 1.5rem;
+  color: #b3b3b3;
+}
+
+.section-map {
+  margin-top: 15rem;
+  background-image: url(images/nature2.jpg);
+  background-repeat: no-repeat;
+}
+.map {
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.map-icon {
+  font-size: 4rem;
+  color: #f38181;
+}
+.map-title {
+  font-size: 2rem;
+  color: #f38181;
+  font-weight: 900;
+}
+.map-line {
+  height: 3px;
+  width: 6rem;
+  background: #f38181;
+}
+/* FOOTER */
+
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 0.5fr;
+  column-gap: 2rem;
+  margin-top: 5rem;
+}
+.footer-logo {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #9f9f9f;
+}
+.footer-text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #9f9f9f;
+}
+.footer-followers {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #b3b3b3;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+.footer-icons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.icon-title {
+  font-size: 2rem;
+  font-style: italic;
+  color: #9f9f9f;
+}
+.footer-icon {
+  font-size: 3rem;
+  color: #95e1d3;
+}
+
+.sub-form {
+  display: inline-block;
+  margin-top: 5rem;
+  display: flex;
+}
+.sub-input {
+  width: 200px;
+  height: 40px;
+  padding: 1.2rem;
+  color: #b3b3b3;
+  border: 1px solid #b3b3b3;
+}
+.sub-btn {
+  color: #fff;
+  background-color: #95e1d3;
+  border: none;
+  width: 200px;
+  height: 40px;
+  padding: 1.2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.footer-h {
+  color: #333;
+}
+.footer-instagram,
+.footer-blogs {
+  gap: 1rem;
+}
+/* last one */
+.rights {
+  border-top: 1px solid #9f9f9f;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+.rights-txt {
+  color: #333;
+}
+.rights-by {
+  color: #f38181;
+}
